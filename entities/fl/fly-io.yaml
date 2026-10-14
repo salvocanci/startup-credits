@@ -7,7 +7,7 @@ entity:
   domains:
     - value: fly.io
       role: primary
-      valid_from: 2026-10-14T15:35:57.000Z
+      valid_from: 2026-10-14T15:37:26.000Z
   category: hosting-infra
 profile:
   summary: Fly.io runs Docker-based apps on hardware-isolated microVMs close to users worldwide.
@@ -34,7 +34,7 @@ offers:
     summary: Eligible Seed or Series A venture- or accelerator-backed startups receive $15,000 in Fly.io usage credits valid for one year, plus a shared Slack channel with the Fly.io team.
     lifecycle:
       status: active
-      effective_from: 2026-10-14T15:35:57.000Z
+      effective_from: 2026-10-14T15:37:26.000Z
     economics:
       consideration:
         kind: none
@@ -55,26 +55,10 @@ offers:
           kind: other
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.stage
-            kind: predicate
-            operator: in
-            statement: Startup is at the Seed or Series A stage.
-            value:
-              type: string_list
-              value:
-                - seed
-                - series-a
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: Startup is backed by a venture firm or an accelerator; Fly.io may ask to verify funding with an email intro to the investor or accelerator.
-          - criterion_id: cri_03
-            kind: manual
-            reason: vendor-discretion
-            statement: Startup has not previously received Fly.io startup credits.
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: Seed or Series A startups backed by a venture firm or accelerator that have not previously received Fly.io startup credits. Fly.io may ask to verify funding with an email intro to the investor or accelerator.
     roles:
       terms_authority_entity_id: ent_01m4xgw248h1fzcq08edpdk4ma
       access_operator_entity_id: ent_01m4xgw248h1fzcq08edpdk4ma
