@@ -39,8 +39,7 @@ offers:
       effective_from: 2026-10-14T15:37:26.000Z
     economics:
       consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
+        kind: none
       benefits:
         - benefit_id: ben_01
           description: Up to $15,000 in credits added to a Fly.io organization and applied to usage across Machines, Sprites, Managed Postgres, volumes, and bandwidth; credits expire one year after they are added.
