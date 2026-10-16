@@ -58,10 +58,20 @@ offers:
               minor_units: 6000000
     eligibility:
       rule:
-        kind: manual
-        criterion_id: cri_01
-        reason: vendor-discretion
-        statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI. An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
+        kind: all
+        rules:
+          - criterion_id: cri_01
+            kind: manual
+            reason: vendor-discretion
+            statement: The Program is offered solely to business entities in the countries or territories designated by Oracle.
+          - criterion_id: cri_02
+            kind: manual
+            reason: vendor-discretion
+            statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
+          - criterion_id: cri_03
+            kind: manual
+            reason: vendor-discretion
+            statement: An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
