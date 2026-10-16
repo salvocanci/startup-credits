@@ -59,9 +59,9 @@ offers:
     eligibility:
       rule:
         kind: manual
-        criterion_id: cri_oracle_selection
-        reason: vendor-discretion
-        statement: Oracle selects participants at its sole discretion and subject to Program availability.
+        criterion_id: cri_target_companies
+        reason: not-machine-evaluable
+        statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
