@@ -10,13 +10,13 @@ entity:
       valid_from: 2026-10-16T11:35:00.000Z
   category: hosting-infra
 profile:
-  summary: Oracle provides cloud infrastructure (OCI), AI databases, and application suites such as Fusion and NetSuite.
-  description: Oracle provides cloud infrastructure, AI databases, and business application suites including Fusion and NetSuite.
+  summary: Oracle delivers AI-powered cloud applications, autonomous database technology, and Oracle Cloud Infrastructure for enterprises worldwide.
+  description: Oracle delivers AI-powered cloud applications, autonomous databases, and cloud infrastructure for organizations worldwide.
   links:
-    site: https://www.oracle.com/
+    site: https://www.oracle.com/about/
 sources:
   - source_id: src_9d13d78a09bfb62c50ac89c6b7b6fbaf6ee69aa82aa5fe64b9a29b80c5f73e84
-    url: https://www.oracle.com/
+    url: https://www.oracle.com/about/
   - source_id: src_c28d412b9ede36f9317b69215242023b4646f5ed9df19d22d3db69468fad5fa8
     url: https://www.oracle.com/uk/artificial-intelligence/startup-growth-engine/
   - source_id: src_bd80953233eb67df994d2c39665f3e41998ae8ec36ac9486e15deccb4b4e9d44
@@ -60,33 +60,17 @@ offers:
               minor_units: 6000000
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: vendor-discretion
-            statement: Legally registered technology company that develops digital products or platforms with the potential for scalable use of OCI, and intends to deploy eligible workloads on OCI.
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: Business entity in a country or territory designated by Oracle for the Program; Oracle selects participants at its sole discretion and subject to Program availability.
-          - criterion_id: cri_03
-            kind: manual
-            reason: vendor-discretion
-            statement: Applicant must provide complete and accurate information during the application process and have authority to accept the Program terms on behalf of the applicant.
-          - kind: not
-            rule:
-              criterion_id: cri_04
-              kind: manual
-              reason: vendor-discretion
-              statement: Public entities, as defined by applicable law and Oracle policy, are not eligible; applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible.
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: Legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI; applicants must intend to deploy eligible workloads on OCI, provide complete and accurate application information, and have authority to accept the Program terms. The Program is offered solely to business entities in countries or territories designated by Oracle. Public entities are not eligible. Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible. Oracle selects participants at its sole discretion and subject to Program availability.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
     access:
       availability: public
       method: form
-      url: https://go.oracle.com/LP=154990
+      url: https://www.oracle.com/uk/artificial-intelligence/startup-growth-engine/
     source_ids:
       - src_c28d412b9ede36f9317b69215242023b4646f5ed9df19d22d3db69468fad5fa8
       - src_bd80953233eb67df994d2c39665f3e41998ae8ec36ac9486e15deccb4b4e9d44
