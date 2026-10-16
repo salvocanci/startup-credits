@@ -58,24 +58,10 @@ offers:
               minor_units: 6000000
     eligibility:
       rule:
-        kind: all
-        rules:
-          - kind: manual
-            criterion_id: cri_target_companies
-            reason: not-machine-evaluable
-            statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
-          - kind: manual
-            criterion_id: cri_requirements
-            reason: not-machine-evaluable
-            statement: An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
-          - kind: manual
-            criterion_id: cri_geography
-            reason: not-machine-evaluable
-            statement: The Program is offered solely to business entities in the countries or territories designated by Oracle.
-          - kind: manual
-            criterion_id: cri_limitations
-            reason: not-machine-evaluable
-            statement: Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible; public entities are not eligible; applicants with outstanding debts to Oracle or a history of default may be excluded; Oracle may apply additional eligibility conditions for particular countries, industries, products, or offerings.
+        kind: manual
+        criterion_id: cri_oracle_selection
+        reason: vendor-discretion
+        statement: Oracle selects participants at its sole discretion and subject to Program availability.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
