@@ -48,16 +48,13 @@ offers:
               currency: USD
               minor_units: 500000
             kind: up-to
-        - applies_to: OpenRouter processing fees
-          benefit_id: ben_02
+        - benefit_id: ben_02
           description: 0% processing fees (including platform fees and BYOK fees) for 12 months.
           duration:
             kind: exact
             value: P1Y
-          kind: discount
-          percentage:
-            basis_points: 10000
-            kind: exact
+          kind: waiver
+          waived_item: OpenRouter platform and BYOK processing fees
       consideration:
         kind: none
     eligibility:
