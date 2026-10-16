@@ -10,7 +10,8 @@ entity:
       valid_from: 2026-08-01T07:25:22.175Z
   category: ai-ml
 profile:
-  description: Everything an early-stage team needs to build, experiment, and scale with AI — without managing multiple providers.
+  summary: OpenRouter provides a unified API for routing requests across hundreds of AI models from many providers.
+  description: Unified API for accessing and routing across many AI models without managing multiple providers.
   links:
     site: https://openrouter.ai
 sources:
@@ -94,7 +95,7 @@ offers:
           - criterion_id: cri_05
             kind: manual
             reason: external-verification
-            statement: Apply with a company email address, associated with an OpenRouter account
+            statement: Apply with a professional email that matches the company domain (not generic aliases), associated with an OpenRouter account
           - criterion_id: cri_06
             fact: company.openrouter_spend_usd
             kind: predicate
