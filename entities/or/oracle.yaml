@@ -61,7 +61,7 @@ offers:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: Legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI; applicants must intend to deploy eligible workloads on OCI and apply through the official Program form. Oracle selects participants at its sole discretion. Public entities and applicants presenting regulatory, financial-crime, sanctions, or reputational risks are not eligible.
+        statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI. An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
