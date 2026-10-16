@@ -10,10 +10,10 @@ entity:
       valid_from: 2026-10-16T11:35:00.000Z
   category: hosting-infra
 profile:
-  summary: Oracle delivers AI-powered cloud applications, autonomous database technology, and Oracle Cloud Infrastructure for enterprises worldwide.
-  description: Oracle delivers AI-powered cloud applications, autonomous databases, and cloud infrastructure for organizations worldwide.
+  summary: Oracle delivers AI-powered cloud applications, the world's first autonomous database, and Oracle Cloud Infrastructure.
+  description: Oracle delivers AI-powered cloud applications, autonomous database technology, and cloud infrastructure.
   links:
-    site: https://www.oracle.com/about/
+    site: https://www.oracle.com/
 sources:
   - source_id: src_9d13d78a09bfb62c50ac89c6b7b6fbaf6ee69aa82aa5fe64b9a29b80c5f73e84
     url: https://www.oracle.com/about/
@@ -65,19 +65,23 @@ offers:
           - criterion_id: cri_01
             kind: manual
             reason: vendor-discretion
-            statement: Legally registered technology company that develops digital products or platforms with the potential for scalable use of OCI.
+            statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
           - criterion_id: cri_02
             kind: manual
             reason: vendor-discretion
-            statement: Must intend to deploy eligible workloads on OCI, provide complete and accurate application information, and have authority to accept the Program terms.
+            statement: An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
           - criterion_id: cri_03
             kind: manual
             reason: vendor-discretion
-            statement: Business entity in a country or territory designated by Oracle; Oracle selects participants at its sole discretion and subject to Program availability.
+            statement: The Program is offered solely to business entities in the countries or territories designated by Oracle.
           - criterion_id: cri_04
             kind: manual
             reason: vendor-discretion
-            statement: Public entities are not eligible. Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible.
+            statement: Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible.
+          - criterion_id: cri_05
+            kind: manual
+            reason: vendor-discretion
+            statement: Public entities, as defined by applicable law and Oracle policy, are not eligible.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
