@@ -10,13 +10,11 @@ entity:
       valid_from: 2026-10-16T11:35:00.000Z
   category: hosting-infra
 profile:
-  summary: Oracle delivers AI-powered cloud applications, the world's first autonomous database, and Oracle Cloud Infrastructure.
-  description: Oracle delivers AI-powered cloud applications, autonomous database technology, and cloud infrastructure.
+  summary: Oracle offers Oracle Cloud Infrastructure (OCI) and related cloud, data, and AI services used by startups and enterprises.
+  description: Oracle provides Oracle Cloud Infrastructure (OCI) for cloud native, data, and AI workloads, including marketplace and partner routes to market for selected startups.
   links:
-    site: https://www.oracle.com/
+    site: https://www.oracle.com/uk/artificial-intelligence/startup-growth-engine/
 sources:
-  - source_id: src_9d13d78a09bfb62c50ac89c6b7b6fbaf6ee69aa82aa5fe64b9a29b80c5f73e84
-    url: https://www.oracle.com/about/
   - source_id: src_c28d412b9ede36f9317b69215242023b4646f5ed9df19d22d3db69468fad5fa8
     url: https://www.oracle.com/uk/artificial-intelligence/startup-growth-engine/
   - source_id: src_bd80953233eb67df994d2c39665f3e41998ae8ec36ac9486e15deccb4b4e9d44
@@ -26,7 +24,7 @@ programs:
     program_slug: oracle-startup-growth-engine
     program_slug_aliases: []
     title: Oracle Startup Growth Engine
-    summary: Program for selected technology startups and digital native companies to build and scale on Oracle Cloud Infrastructure with OCI Universal Credits.
+    summary: Programme for selected startups and digital native companies to build and scale on Oracle Cloud Infrastructure (OCI), with OCI Universal Credits and related support.
     source_ids:
       - src_c28d412b9ede36f9317b69215242023b4646f5ed9df19d22d3db69468fad5fa8
       - src_bd80953233eb67df994d2c39665f3e41998ae8ec36ac9486e15deccb4b4e9d44
@@ -36,7 +34,7 @@ offers:
     offer_slug: oracle-startup-growth-engine-oci-credits
     offer_slug_aliases: []
     title: OCI Universal Credits for Startups
-    summary: Selected participants may receive USD 5,000 to USD 60,000 in OCI Universal Credits for twelve months, subject to Oracle selection and program terms.
+    summary: Selected participants may receive USD 5,000 to USD 60,000 in Universal Credits exclusively for use on OCI for twelve months, subject to Oracle selection and program terms.
     lifecycle:
       status: active
       effective_from: 2026-10-16T11:35:00.000Z
@@ -45,7 +43,7 @@ offers:
         kind: none
       benefits:
         - benefit_id: ben_01
-          description: Universal Credits exclusively for use on Oracle Cloud Infrastructure (OCI), ranging from USD 5,000 to USD 60,000; available for twelve months from the date they are made available, then unused credits expire with no cash value.
+          description: Universal Credits exclusively for use on OCI ranging from USD 5,000 to USD 60,000; available for twelve months from the date they are made available; unused credits expire with no cash value.
           kind: credit
           duration:
             kind: exact
@@ -65,23 +63,19 @@ offers:
           - criterion_id: cri_01
             kind: manual
             reason: vendor-discretion
-            statement: The Program is intended for legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
+            statement: Legally registered technology companies that develop digital products or platforms with the potential for scalable use of OCI.
           - criterion_id: cri_02
             kind: manual
             reason: vendor-discretion
-            statement: An applicant must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate information during the application process, and have the authority to accept these Terms and Conditions on behalf of the applicant.
+            statement: Must operate as a technology company, intend to deploy eligible workloads on OCI, provide complete and accurate application information, and have authority to accept the Terms and Conditions.
           - criterion_id: cri_03
             kind: manual
             reason: vendor-discretion
-            statement: The Program is offered solely to business entities in the countries or territories designated by Oracle.
+            statement: Offered solely to business entities in countries or territories designated by Oracle; Oracle selects participants at its sole discretion and subject to Program availability.
           - criterion_id: cri_04
             kind: manual
             reason: vendor-discretion
-            statement: Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible.
-          - criterion_id: cri_05
-            kind: manual
-            reason: vendor-discretion
-            statement: Public entities, as defined by applicable law and Oracle policy, are not eligible.
+            statement: Public entities are not eligible. Applicants that present regulatory, financial-crime, sanctions, or reputational risks are not eligible.
     roles:
       terms_authority_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
       access_operator_entity_id: ent_01m527wx36xjpghjzxzgn9k4wn
