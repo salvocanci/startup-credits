@@ -86,7 +86,7 @@ offers:
     access:
       availability: public
       method: form
-      url: https://go.oracle.com/LP=154990?elqCampaignId=679925
+      url: https://go.oracle.com/LP=154990
     source_ids:
       - src_c28d412b9ede36f9317b69215242023b4646f5ed9df19d22d3db69468fad5fa8
       - src_bd80953233eb67df994d2c39665f3e41998ae8ec36ac9486e15deccb4b4e9d44
